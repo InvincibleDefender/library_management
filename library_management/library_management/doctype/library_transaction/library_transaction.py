@@ -59,7 +59,7 @@ class LibraryTransaction(Document):
 
 	
 	
-
+# Book can be returned by those who borrowed it.
 	def before_save(self):
 		if self.returned == 1:
 			task = frappe.get_last_doc('Library Transaction', filters={"status": "Taken","docstatus":1,"article":self.article})

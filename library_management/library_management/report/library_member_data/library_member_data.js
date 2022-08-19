@@ -31,6 +31,13 @@ frappe.query_reports["Library Member Data"] = {
 		fieldtype:"Select",
 		options:"Issued\nReturned"
 
+},
+{
+	fieldname:"first_name",
+		label:"Member Name",
+		fieldtype:"Link",
+		options:"Library Member"
+
 }
 	
 		

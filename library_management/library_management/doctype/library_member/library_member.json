@@ -12,7 +12,8 @@
   "full_name",
   "email_address",
   "phone",
-  "check"
+  "check",
+  "photo"
  ],
  "fields": [
   {
@@ -50,11 +51,16 @@
    "fieldname": "check",
    "fieldtype": "Check",
    "label": "check"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach",
+   "label": "Photo"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-04 15:24:41.270132",
+ "modified": "2022-02-20 13:41:05.605569",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
